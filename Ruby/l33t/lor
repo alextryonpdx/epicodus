@@ -1,0 +1,20 @@
+[31mF[0m
+
+Failures:
+
+  1) String#l33t convert 'e' to the number 3
+     [31mFailure/Error: [0mexpect(([31m[1;31m'[0m[31melement[1;31m'[0m[31m[0m).l33t()).to(eq([31m[1;31m'[0m[31m3l3m3nt[1;31m'[0m[31m[0m))[0m
+     [31m[0m
+     [31m  expected: "3l3m3nt"[0m
+     [31m       got: ["e", "l", "e", "m", "e", "n", "t"][0m
+     [31m[0m
+     [31m  (compared using ==)[0m
+     [36m# ./spec/l33t_spec.rb:20:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.01361 seconds (files took 0.12099 seconds to load)
+[31m1 example, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/l33t_spec.rb:19[0m [36m# String#l33t convert 'e' to the number 3[0m
+

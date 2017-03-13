@@ -10,6 +10,6 @@ get('/form') do
 end
 
 get('/title') do
-  @title = params.fetch('input').l33t()
+  @input = params.fetch('input').l33t()
   erb(:title)
 end
