@@ -3,15 +3,15 @@
 <form action='/result'>
   <div class="form-group">
     <label for="start-x-coord">Start X-Coordinate</label>
-    <input id="start-x-coord" name="start-x-coord" class="form-control" type="number">
+    <input id="start-x-coord" name="start-x-coord" class="form-control" type="number" min="1" max="10">
     <label for="start-y-coord">Start Y-Coordinate</label>
-    <input id="start-y-coord" name="start-y-coord" class="form-control" type="number">
+    <input id="start-y-coord" name="start-y-coord" class="form-control" type="number" min="1" max="10">
   </div>
    <div class="form-group">
     <label for="end-x-coord">End X-Coordinate</label>
-    <input id="end-x-coord" name="end-x-coord" class="form-control" type="number">
+    <input id="end-x-coord" name="end-x-coord" class="form-control" type="number" min="1" max="10">
     <label for="end-y-coord">End Y-Coordinate</label>
-    <input id="end-y-coord" name="end-y-coord" class="form-control" type="number">
+    <input id="end-y-coord" name="end-y-coord" class="form-control" type="number" min="1" max="10">
   </div>
   <button type="submit" class="btn-success">Send</button>
 </form>

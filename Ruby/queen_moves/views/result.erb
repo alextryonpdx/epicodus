@@ -1,3 +1,150 @@
-<p>starting position: <%=@validity[0]%></p>
-<p>end position: <%=@validity[1]%></p>
-<p>valid move? <%=@validity[0][0]%>
+<h3 style="color:red">starting position: <%=@coords[0]%></h3>
+<h3 style="color:blue">end position: <%=@coords[1]%></h3>
+<h3>valid move? <%=@coords.queen_move?%></h3>
+
+
+<style>
+table {
+    border-collapse: collapse;
+}
+td {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+tr:nth-of-type(odd) td:nth-of-type(odd){
+	background-color: white;
+}
+tr:nth-of-type(even) td:nth-of-type(even){
+	background-color: white;
+}
+tr:nth-of-type(<%=@coords[0][1]%>) td:nth-of-type(<%=@coords[0][0]%>){
+	background-color: red;
+}
+tr:nth-of-type(<%=@coords[1][1]%>) td:nth-of-type(<%=@coords[1][0]%>){
+	background-color: blue;
+}
+</style>
+
+<table>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
