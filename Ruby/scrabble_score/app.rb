@@ -10,12 +10,6 @@ get('/') do
 end
 
 get('/score') do
-#   @coords = [[params.fetch('start-x-coord').to_i,
-# 			   params.fetch('start-y-coord').to_i],
-# 			  [params.fetch('end-x-coord').to_i,
-# 			   params.fetch('end-y-coord').to_i]
-# 			   ]
-# # binding.pry
-#   @validity = @coords.queen_move?
+	@score = params.fetch('word').scrabble_score()
   erb(:result)
 end
